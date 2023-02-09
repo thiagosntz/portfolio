@@ -15,7 +15,7 @@ body{
 }  
 
 .container{
-  max-width: 1440px;
+  max-width: 1140px;
   margin: auto;
 }
 
@@ -49,10 +49,40 @@ body{
   color: var(--cor-primaria);
 }
 
-.outer-shadow{
+.-shadow{
   box-shadow: 3px 3px #222327, -3px -3px 3px #454545
 }
 
 .inner-shadow{
   box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+}
+
+.section{
+  padding: 7rem 0 7rem;
+}
+
+.section-title{
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 60px 0;
+}
+
+.section-title h2{
+  font-size: var(--fonte-gigante);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.botao{
+  font-size: var(--fonte-grande);
+  background-color: var(--cor-primaria);
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: all 0.3 ease;
+}
+
+.botao:hover{
+  background-color: var(--cor-secundaria);
+  color: var(--cor-branca);
 }
